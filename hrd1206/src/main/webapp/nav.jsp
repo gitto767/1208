@@ -12,7 +12,8 @@
   <li><a href="member_select.jsp">후보 조회</a></li>
   <li><a href="vote_insert.jsp">투표 하기</a></li>
   <li><a href="vote_select.jsp">투표 검수 조회</a></li>
-  <li><a href="">후보자 등수</a></li>
+  <li><a href="rank_select.jsp">후보자 등수</a></li>
+  <li><a href="rank_party_select.jsp">후보자 등수(정당명 표시)</a></li>
   <li><a href="index.jsp">home</a></li>  
 </ul>
 </nav>

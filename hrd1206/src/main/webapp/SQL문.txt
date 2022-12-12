@@ -1,0 +1,11 @@
+ select m.m_no,m.m_name,count(*) as v_total from member1206 m,vote1206 v
+ where m.m_no=v.m_no and v.v_confirm='Y'
+ group by m.m_no,m.m_name
+ order by v_total desc;
+  
+  
+ select m.m_no,m.p_code,m.m_name,count(*) as v_total from member1206 m,vote1206 v
+ where m.m_no=v.m_no and v.v_confirm='Y'
+ group by m.m_no,m.m_name,m.p_code
+ order by v_total desc;
+  
